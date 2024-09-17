@@ -4,6 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vibe & Vision</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Navigation Section -->
+
+    <header>
+      <nav>
+        <!-- Top Navigation Ends here -->
+        <div class="flex justify-between p-5">
+          <h1 class="font-extrabold text-2xl">Vibe & Vision</h1>
+          <ul class="hidden sm:flex gap-5">
+            <li>
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-search"
+                >
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" />
+                </svg>
+              </a>
+            </li>
+
+            <li><a href="#">Tags</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Books</a></li>
+            <li><button>Subscribe</button></li>
+          </ul>
+        </div>
+
+        <!-- Top Navigation Ends here -->
+
+        <!-- Bottom Navigation -->
+
+        <ul class="hidden lg:flex justify-center gap-5 my-5">
+          <li><a href="#">ALL TOPIC</a></li>
+          <li><a href="#">ANIMATIONS</a></li>
+          <li><a href="#">CASE STUDY</a></li>
+          <li><a href="#">GOSSIPS</a></li>
+          <li><a href="#">PROCESS AND TOOLS</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">LATEST</a></li>
+        </ul>
+
+        <!-- Bottom Navigation Ends here -->
+      </nav>
+    </header>
+
+    <!-- Navigation Section Ends here -->
+
+    <!-- Hero Section -->
+
+    <section></section>
+
+    <!-- Hero Section Ends-->
+
+    <!-- Lucide Script -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Tailwind Script -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
 </html>
