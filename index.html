@@ -150,17 +150,10 @@
 
     <!-- Article Section -->
 
-    <article class="article--section grid md:grid-cols-2">
-      <!-- Right Article -->
-      <div class="right--article flex flex-col justify-center">
-        <h3 class="text-2xl font-bold">TOP INSIGHTS</h3>
-        <ul>
-          <li>How Design Changes You.</li>
-        </ul>
-      </div>
-
+    <article class="article--section grid grid-cols-1 md:grid-cols-2 p-5 gap-5">
       <!-- Left Article -->
-      <div class="left--article grid grid-cols-2">
+      <!-- Article Card -->
+      <div class="left--article">
         <div class="flex flex-col">
           <img
             src="https://images.unsplash.com/photo-1557804506-e969d7b32a4b?q=80&w=2890&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -168,7 +161,7 @@
             class="w-50 h-50 rounded-t-lg"
           />
           <div class="flex flex-col gap-3 left--card p-3 rounded-b-lg">
-            <h4 class="font-bold">How To Colaborate</h4>
+            <h4 class="font-bold">How To Collaborate</h4>
 
             <!-- Author -->
 
@@ -183,7 +176,97 @@
           </div>
         </div>
       </div>
+      <!-- Article Card Ends-->
+
+      <!-- Left Article Ends Here -->
+
+      <!-- Right Article -->
+      <div
+        class="right--article rounded-lg flex justify-start items-center h-96 md:h-auto p-5"
+      >
+        <div class="right--articl--container rounded-lg">
+          <h3 class="text-2xl font-bold text-center py-3 px-5 rounded-lg">
+            TOP INSIGHTS
+          </h3>
+          <ul>
+            <li class="font-medium text-xs py-3 px-5">
+              How Design Changes You.
+            </li>
+          </ul>
+        </div>
+      </div>
     </article>
+
+    <!-- Footer -->
+
+    <footer
+      class="flex flex-col md:flex-row items-center gap-5 justify-between p-5"
+    >
+      <!-- Logo -->
+      <div class="logo">
+        <h1 class="text-xl font-semibold">SHOPY.</h1>
+      </div>
+
+      <!-- Copyright -->
+
+      <p class="font-thin">© Developed by Chima Ikegbulam</p>
+
+      <!-- Socials -->
+      <div class="flex gap-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#ffbf46"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-linkedin"
+        >
+          <path
+            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+          />
+          <rect width="4" height="12" x="2" y="9" />
+          <circle cx="4" cy="4" r="2" />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#ffbf46"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-twitter"
+        >
+          <path
+            d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#ffbf46"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-instagram"
+        >
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+        </svg>
+      </div>
+    </footer>
+
+    <!-- Footer Ends -->
 
     <!-- Lucide Script -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
