@@ -150,11 +150,44 @@
 
     <!-- Article Section -->
 
-    <article class="article--section"><h1>hello</h1></article>
+    <article class="article--section grid md:grid-cols-2">
+      <!-- Right Article -->
+      <div class="right--article flex flex-col justify-center">
+        <h3 class="text-2xl font-bold">TOP INSIGHTS</h3>
+        <ul>
+          <li>How Design Changes You.</li>
+        </ul>
+      </div>
+
+      <!-- Left Article -->
+      <div class="left--article grid grid-cols-2">
+        <div class="flex flex-col">
+          <img
+            src="https://images.unsplash.com/photo-1557804506-e969d7b32a4b?q=80&w=2890&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            class="w-50 h-50 rounded-t-lg"
+          />
+          <div class="flex flex-col gap-3 left--card p-3 rounded-b-lg">
+            <h4 class="font-bold">How To Colaborate</h4>
+
+            <!-- Author -->
+
+            <div class="flex justify-between items-center">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1682096252599-e8536cd97d2b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                class="rounded-full h-10 w-10"
+              />
+              <span class="text-xs">By Steve Austin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
 
     <!-- Lucide Script -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-
+    <script src="script.js"></script>
     <!-- Tailwind Script -->
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
